@@ -1,0 +1,90 @@
+
+
+body {
+    font-family:  Arial,sans-serif;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 0.25em;
+    
+   
+}
+#sidebar_Menu {
+  width: 10%;
+
+  position: absolute;
+  left: 15px;
+ /* background-color: blue; */
+}
+#mainBody {
+  position:relative;
+  padding-right: 0.25em;
+  padding: 0.25em;
+    top: 0px;
+    left: 50px;
+  width:70% auto;
+  background-color: #F2F4F0;
+}
+
+
+#mainHeader{
+height: 100px;
+width: 100%;
+position: relative;
+padding: 0.125em;
+background-color: #1DF400;
+}
+
+#sidebar_Menu li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 100%;
+    
+    line-height: 60px;
+    
+}
+
+#sidebar_Menu li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+ 
+#sidebar_Menu li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+}
+.card {
+background-color: #F2F4F0;
+}
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+
+.Align_Right {
+    float: right;
+    padding-left: 5px;
+    padding: 2px;
+}
+
+.Align_Left {
+    float: left;
+    padding-right: 5px;
+    padding: 2px;
+}
+
+.Select_Box {
+    background-color: #F2F4F0;
+    border:thin;
+    border-radius: 3em;
+    border-color:#000000;
+}
